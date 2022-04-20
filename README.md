@@ -1,10 +1,11 @@
 # telegram-bot
-Un pequeño script con interacciones de botones
+Un pequeño bot con la fncionalidad de contar billetes CO
 
-https://github.com/SVR666/svr666/blob/master/gifs/coding.gif
-https://raw.githubusercontent.com/iamLiquidX/iamLiquidX/output/github-contribution-grid-snake.svg
-after this click on the below button 👇👇👇👇
+después de esto, haga clic en el botón de abajo 👇👇👇👇
 <p><a href="https://heroku.com/deploy"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+
+<p><a href="#"> <img src="https://github.com/SVR666/svr666/blob/master/gifs/coding.gif"><a><p>
+<p><a href="#"> <img src="https://raw.githubusercontent.com/iamLiquidX/iamLiquidX/output/github-contribution-grid-snake.svg"><a><p>
 
 
 ## Apoya mi trabajo

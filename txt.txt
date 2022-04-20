@@ -1,0 +1,47 @@
+#Requeriments
+pip install python-telegram-bot
+
+
+pip install -r requirements.txt
+
+python install -r C:\Users\USUARIO\Documents\Documentos-viejos\mio\u\requirements.txt
+cd C:\Users\USUARIO\Documents\Documentos-viejos\mio\Telegram\t-bot
+python install -r requirements.txt
+
+cd C:\Users\USUARIO\Documents\Documentos-viejos\mio\Telegram\t-bot
+python3 -m bot
+
+
+---no
+cd C:\Users\USUARIO\Documents\Documentos-viejos\mio\t-bot\bot
+python bot.py
+
+
+------heroku
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+$ heroku login
+Create a new Git repository
+Initialize a git repository in a new or existing directory
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a bot-beta-8765
+Deploy your application
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+---
+git init
+heroku git:remote -a botmodgoups90
+
+git add .
+git commit -am "make it better"
+git push heroku master
+
+
+cd C:\Users\USUARIO\Documents\Documentos-viejos\mio\Python\telegram-bots\Publicar.Canal\
+python -m bot

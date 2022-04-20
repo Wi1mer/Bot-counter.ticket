@@ -1,0 +1,63 @@
+{
+    "name": "Publicar.Canal",
+    "description": "Publicar en canal by @ahp",
+    "logo": "https://i.imgur.com/ZLi4nDP.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "comandos"
+    ],
+    "repository": "https://github.com/./",
+    "website":   "https://github.com/./",
+    "success_url": "https://t.me/.",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Get this value from @BotFather on Telegram",
+        "value": "1715188773:ABCDEVdFNdY7ZdYGEZS9FTx7KTjpymspiMY",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Get this value by sending /id to @kelverbot on Telegram.",
+        "value": "294655685",
+        "required": true
+      },
+      "AUTHORISED_USERS" : {
+        "description": "List of user ids to allow bot access to. Note: Write within [] and seperate with ,",
+        "value": "[]",
+        "required": false
+      },
+      "CHANNEL_ID": {
+        "description": "Canal a donde se envia el post",
+        "value": "-1001257585889",
+        "required": true
+      },
+      "GROUP_ID": {
+        "description": "Grupo a donde se envia el post",
+        "value": "-1001596325178",
+        "required": true
+      },
+      "LINKS_STRING" : {
+        "description": "Lista de ids de Torrent o YouTube",
+        "value": "[]",
+        "required": true
+      },
+      "C_LINK" : {
+        "description": "Lista de host de Torrent o YouTube",
+        "value": "['magnet:?xt=urn:btih:', 'https://www.youtube.com/watch?v=', 'https://youtu.be/watch?v=,' 'https://www.eporner.com']",
+        "required": true
+      },
+      "COMANDO": {
+        "description": "tipo de id 0=/mirrro 1=mirror/torrent 2=yt.com 3=yt.be 4=clone 5>else=null", 
+        "value": "1",
+        "required": true
+      },
+      "TIME_IN_S": {
+        "description": "tiempo de espra para postear",
+        "value": "120",
+        "required": true
+      }
+    },
+    "buildpacks": [{
+      "url": "heroku/python"
+    }]
+  }

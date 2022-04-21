@@ -80,7 +80,7 @@ def mesgs_hand(update, context):
             context.bot.send_message(chat_id=id_received, text=f'{valor_0}\n${total_0}'); 
             # print(f'{valorx} x {cantidadx} = {totalx}!')
             
-            print(f'{total_0}!')
+            print(f'{valor_0}\n${total_0}!')
             
         if('all 0' in msg_text):
             time_0 = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
